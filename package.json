@@ -31,7 +31,8 @@
       "ev_api_tester.py"
     ],
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "signAndEditExecutable": false
     }
   }
 }

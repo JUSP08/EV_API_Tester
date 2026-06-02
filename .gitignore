@@ -15,6 +15,7 @@ dashboard-smoke.png
 build/
 dist/
 node_modules/
+.tools/
 *.spec
 *.zip
 out/

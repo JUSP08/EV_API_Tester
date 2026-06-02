@@ -53,14 +53,14 @@ This option is the simplest deployable desktop-style build because it packages t
 This wraps the local dashboard in an Electron desktop window.
 
 ```powershell
-npm install
-npm run electron
+.\.tools\node-v22.16.0-win-x64\npm.cmd install
+.\.tools\node-v22.16.0-win-x64\npm.cmd run electron
 ```
 
 To create an installer/build:
 
 ```powershell
-npm run electron:dist
+.\build-electron.ps1
 ```
 
 The Electron option still requires Python to be available unless you later bundle the PyInstaller server executable into the Electron package.
